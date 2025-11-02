@@ -6,62 +6,8 @@
     <title>Jimmy Key</title>
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
 
-<style>
-    .swiper {
-      width: 100%;
-      overflow:visible;
-    }
-    .swiper-slide {
-      width: 100px;
-      flex-shrink: 0;
-    }
-    .swiper-button-next,
-    .swiper-button-prev {
-     color: #555;
-     top: 40%;
-     scale: 0.8;
-}
-   .swiper-button-next:hover,
-   .swiper-button-prev:hover {
-     color: #000;
-      transform: scale(1.05);
-      transition: 0.3s ease;
-}
-    .card {
-     width: 100%;
-     border: none;
-}
-    .card img {
-      height: 400px;
-      object-fit: cover;
-      border-radius:8px;
-    }
-    .card-body {
-      padding: 8px 5px;
-}
-
-    .card-title {
-     font-size: 0.8rem;
-     font-weight: 600;
-     min-height: 12px;    
-}
-
-    .card-text {
-     font-size: 0.75rem;
-     margin-bottom: 4px;
-}
-    .btn {
-     font-size: 0.8rem;
-     padding: 2px 6px;
-}
-    .card:hover {
-      transform: scale(1.05);
-      transition: 0.3s ease;
-    }
-
-
-  </style>
 </head>
  <body>
  <h1>trendyol</h1>
@@ -86,22 +32,19 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Tüm Ürünler</a>
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tüm Ürünler
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="https://www.jimmykey.com/tr/giyim" target="_blank">Giyim</a></li>
+            <li><a class="dropdown-item" href="https://www.jimmykey.com/tr/aksesuar" target="_blank">Aksesuar</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item text-danger" href="https://www.jimmykey.com/tr/indirim" target="_blank">Sezon Sonu İndirimi</a></li>
+          </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Fırsat Ürünleri</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
         </li>
       
       </ul>
@@ -149,5 +92,7 @@
 
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
