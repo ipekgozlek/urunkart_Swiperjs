@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jimmy Key</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+<style>
+    .swiper {
+      width: 100%;
+      overflow:visible;
+    }
+    .swiper-slide {
+      width: 100px;
+      flex-shrink: 0;
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+     color: #555;
+     top: 40%;
+     scale: 0.8;
+}
+   .swiper-button-next:hover,
+   .swiper-button-prev:hover {
+     color: #000;
+      transform: scale(1.05);
+      transition: 0.3s ease;
+}
+    .card {
+     width: 100%;
+     border: none;
+}
+    .card img {
+      height: 400px;
+      object-fit: cover;
+      border-radius:8px;
+    }
+    .card-body {
+      padding: 8px 5px;
+}
+
+    .card-title {
+     font-size: 0.8rem;
+     font-weight: 600;
+     min-height: 12px;    
+}
+
+    .card-text {
+     font-size: 0.75rem;
+     margin-bottom: 4px;
+}
+    .btn {
+     font-size: 0.8rem;
+     padding: 2px 6px;
+}
+    .card:hover {
+      transform: scale(1.05);
+      transition: 0.3s ease;
+    }
+
+
+  </style>
+</head>
+ <body>
+ <h1>trendyol</h1>
+
+<div class="position-relative w-100">
+  <img src="https://blog.jimmykey.com/wp-content/uploads/2025/03/key-mag-blog-kapak-yatay-1200x500-px-5-2.jpg" class="img-fluid w-100" style="height: 200px; object-fit: cover;" alt="arka plan resmi">
+      
+  <div class="position-absolute top-50 start-0 translate-middle-y text-white fw-bold fs-3 ps-4">
+      <img src="https://cdn.dsmcdn.com/seller-store/uploads/4272/e27d5598-ba7b-49f4-8430-9a83f25d0435.jpeg" 
+       alt="logo"
+      style="width: 80px; height: 80px; margin-right:15px;">
+
+    Jimmy Key
+  </div>
+</div>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Ana Sayfa</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Tüm Ürünler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fırsat Ürünleri</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+      
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="container mt-2 mb-0">
+    <div class="row g-3">
+        <div class="col-md-6">
+       <img src="https://cdn.dsmcdn.com/seller-store/uploads/4272/93fac582-f515-4635-ae76-d3d50a06b5e4.jpeg"
+       class="img-fluid rounded w-100" alt="kampanya 1">
+        </div>
+        <div class="col-md-6">
+             <img src="https://cdn.dsmcdn.com/seller-store/uploads/4272/cad9e7ef-6a8e-4961-bd32-f47cc3f05e9c.jpeg"
+             class="img-fluid rounded w-100" alt="kampanya 2">
+    </div>
+    </div>
+</div>
+<br>
+
+<body class="bg-light">
+
+  <!-- <div class="container mt-2 mb-0">
+    <h4 class="text-center text-primary fw-bold mb-2">Yeni Sezon Ürünleri</h4> -->
+
+    <div class="title-wrapper"> 
+        <!-- <h2 class="title-wrapper__text ">Çok satanlar 🧡 </h2> -->
+         <h2 class="title-wrapper__text title-wrapper__text--right ">Çok satanlar 🧡 </h2>
+    <!--Swiper Container -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper" id="product-wrapper">
+        <!-- JS kartları -->
+      </div>
+
+      <!-- Butonlar -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
