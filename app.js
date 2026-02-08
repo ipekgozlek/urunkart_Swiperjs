@@ -1,5 +1,5 @@
 let products = [
-  { id: 1, name: "Lacivert Gömlek", price: 1999.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW035633/bluz_5ww035633_lacivert-494-lacivert_1_614x805.webp" },
+  { id: 1, name: "Lacivert Gömlek", price: 1999.9, image: "./photos/bluz_lacivert.webp" },
   { id: 2, name: "Kırmızı Kısa Kollu Gömlek", price: 1499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW035264/bluz_5ww035264_kirmizi-600-kirmizi_1_614x805.webp" },
   { id: 3, name: "Leopar Desenli Gömlek", price: 2999.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW085612/gomlek_5ww085612_aci-kahve-803-kahverengi_1_614x805.webp" },
   { id: 4, name: "Mavi Örme Midi Elbise", price: 2499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW065870/elbise_5ww065870_koyu-petrol-427-koyu-yesil_1_614x805.webp" },
