@@ -23,11 +23,20 @@
      width: 100%;
      border: none;
 }
-    .card img {
-      height: 100px;
-      object-fit: cover;
-      border-radius:8px;
-    }
+    .card img{
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px){
+  .card img{ height: 280px; }
+}
+
+@media (min-width: 1200px){
+  .card img{ height: 320px; }
+}
     .card-body {
       padding: 8px 5px;
 }
