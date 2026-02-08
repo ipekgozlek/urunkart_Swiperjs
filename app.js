@@ -1,14 +1,14 @@
 let products = [
-  { id: 1, name: "Lacivert Gömlek", price: 1999.9, image: "./photos/bluz_lacivert.webp" },
-  { id: 2, name: "Kırmızı Kısa Kollu Gömlek", price: 1499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW035264/bluz_5ww035264_kirmizi-600-kirmizi_1_614x805.webp" },
-  { id: 3, name: "Leopar Desenli Gömlek", price: 2999.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW085612/gomlek_5ww085612_aci-kahve-803-kahverengi_1_614x805.webp" },
-  { id: 4, name: "Mavi Örme Midi Elbise", price: 2499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW065870/elbise_5ww065870_koyu-petrol-427-koyu-yesil_1_614x805.webp" },
-  { id: 5, name: "Fiyonk Detaylı Dokuma Mini Elbise", price: 799.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025yaz/5SW064409/elbise_5sw064409_ekru-114-ekru_3_614x805.webp" },
-  { id: 6, name: "Boncuk Detaylı Askılı Mini Elbise", price: 1499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025yaz/5SW063118/100-keten-duz-kesim-boncuk-detayli-askili-mini-elbise_5sw063118_aci-kahve-803-kahverengi_8_614x805.webp"},
-  { id: 7, name: "Sıfır Yaka Mesh Bluz", price: 1299.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW036014/dar-kesim-sifir-yaka-renk-gecisli-mesh-bluz_5ww036014_gri-920-gri_2_614x805.webp" },
-  { id: 8, name: "Yılan Desenli Mini Etek", price: 2499.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW075738/yilan-desenli-deri-gorunumlu-mini-etek_5ww075738_kahverengi-800-kahverengi_2_614x805.webp" },
- { id: 9, name: "Uzun Kollu Saten Gömlek", price: 1899.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW085970/rahat-kesim-uzun-kollu-saten-gomlek_5ww085970_saks-458-lacivert_1_614x805.webp" },  
-  { id: 10, name: "Fermuarlı Peluş Mont", price: 3999.9, image: "https://cdn2.jimmykey.com/jimmykey/ContentImages/Product/2025kis/5WW053688/dik-yaka-cep-detayli-fermuarli-pelus-mont_5ww053688_acik-kahve-815-kahverengi_1_614x805.webp" }   
+  { id: 1, name: "Lacivert Gömlek", price: 1999.9, image: "./photos/bluz_lacivert.webp" ,alt :"Lacivert Gömlek"},
+  { id: 2, name: "Kırmızı Kısa Kollu Gömlek", price: 1499.9, image: "./photos/bluz_kirmizi.webp" , alt :"Kırmızı Kısa Kollu Gömlek"},
+  { id: 3, name: "Leopar Desenli Gömlek", price: 2999.9, image: "./photos/gomlek_kahverengi.webp" , alt :"Leopar Desenli Gömlek"},
+  { id: 4, name: "Mavi Örme Midi Elbise", price: 2499.9, image: "./photos/mavielbise.webp",alt :"Mavi Örme Midi Elbise" },
+  { id: 5, name: "Fiyonk Detaylı Dokuma Mini Elbise", price: 799.9, image: "./photos/sarielbise.webp" ,alt :"Fiyonk Detaylı Dokuma Mini Elbise"},
+  { id: 6, name: "Boncuk Detaylı Askılı Mini Elbise", price: 1499.9, image: "./photos/ketenelbise.webp", alt :"Boncuk Detaylı Askılı Mini Elbise" },
+  { id: 7, name: "Sıfır Yaka Mesh Bluz", price: 1299.9, image: "./photos/gribluz.webp", alt :"Sıfır Yaka Mesh Bluz" },
+  { id: 8, name: "Yılan Desenli Mini Etek", price: 2499.9, image: "./photos/yilanetek.webp" , alt :"Yılan Desenli Mini Etek" },
+ { id: 9, name: "Uzun Kollu Saten Gömlek", price: 1899.9, image: "./photos/saten-gomlek.webp",alt :"Uzun Kollu Saten Gömlek"},  
+  { id: 10, name: "Fermuarlı Peluş Mont", price: 3999.9, image: "./photos/pelus.webp" , alt :"Fermuarlı Peluş Mont"},   
 ];
 
 function createCard(p) {
